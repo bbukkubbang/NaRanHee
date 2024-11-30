@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI 대화 상대 선택</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- 스플래시 화면 -->
+    <div id="splash" class="splash">
+      <img
+        src="391247846-c27cbac9-4cf3-453b-925c-ced3ed5e4a67.png"
+        alt="스플래시 이미지"
+      />
+    </div>
+
+
+    <!-- 메인 화면 -->
+    <div id="main" class="container" style="display: none">
+      <div class="header">
+        AI 대화상대 선택
+        <button class="settings-button" onclick="showSettings()">설정</button>
+      </div>
+
+      <div class="items-container">
+        <!-- 대화 상대 목록 -->
+        <div class="item" onclick="selectItem(this, '아빠')">
+          <img
+            src="391248125-74db126b-71db-408c-a7a0-99075e779749.png"
+            alt="아빠"
+          />
+          <div class="name">아빠 (50대 남성)</div>
+        </div>
+        <div class="item" onclick="selectItem(this, '엄마')">
+          <img
+            src="391248127-608aaaf2-b413-44ac-9868-048ea930bd99.png"
+            alt="엄마"
+          />
+          <div class="name">엄마 (50대 여성)</div>
+        </div>
+        <div class="item" onclick="selectItem(this, '친구')">
+          <img
+            src="391248494-d920f26f-736b-4581-b9e5-a1e24770b9f6.png"
+            alt="친구"
+          />
+          <div class="name">친구 (20대 여성)</div>
+        </div>
+        <div class="item" onclick="selectItem(this, '오빠')">
+          <img
+            src="391248129-ad733677-f995-4884-b543-cf039d471e3e.png"
+            alt="오빠"
+          />
+          <div class="name">오빠 (20대 남성)</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 선택된 이미지 표시 -->
+    <div id="modal" class="modal" onclick="closeModal()">
+      <img id="modalImage" src="" alt="선택된 이미지" />
+    </div>
+
+    <!-- 설정 화면 -->
+    <div id="settings" class="settings" style="display: none">
+      <div class="header">설정</div>
+      <div class="item" onclick="alert('사용자 설정 선택!')">
+        <div class="name">사용자 설정</div>
+      </div>
+      <div class="item" onclick="alert('통화 설정 선택!')">
+        <div class="name">통화 설정</div>
+      </div>
+      <div class="item" onclick="alert('도움 요청 단어 설정 선택!')">
+        <div class="name">도움 요청 단어 설정</div>
+      </div>
+      <div class="item" onclick="alert('AI 보이스 설정 선택!')">
+        <div class="name">AI 보이스 설정</div>
+      </div>
+      <div class="item" onclick="alert('구매 내역 선택!')">
+        <div class="name">구매 내역</div>
+      </div>
+      <button class="back-button" onclick="goBack()">뒤로 가기</button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
