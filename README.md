@@ -44,6 +44,7 @@
 
 ### 🧑‍💻구현 내용 및 결과물
 주요기능과 동일하게 구현하였습니다.
+[배포] (https://bbukkubbang.github.io/NaRanHee/)
 
 <table>
  <tr>
@@ -61,7 +62,7 @@
 
 ### 🪄구현 방식
 
-html5, css를 이용해서 웹 어플리케이션을 구성하였고, 배포의 경우에는 Github Pages를 이용했습니다.
+html5, css, 바닐라 js를 이용해서 웹 어플리케이션을 구성하였고, 배포의 경우에는 Github Pages를 이용했습니다.
 
 
 ## 🌟향후 개선 혹은 발전 방안
