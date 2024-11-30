@@ -10,7 +10,7 @@
 
 
 ## 🎞️시연 영상
-[나란히 시연영상](유튜브 링크)
+[나란히 시연영상](https://youtube.com/shorts/VJ4rbfUXJB4?feature=share)
 
 
 ## 🚩서비스 소개
